@@ -1,0 +1,641 @@
+/*---------------------------------------------------------------------
+                              FARBEN WEGWEISER
+
+
+Karamel:        rgb(205, 130, 50);
+Gelbweiß:       rgb(237, 237, 191);
+Grün-dunkel:    rgb(103, 111, 88);
+Grün:           rgb(170, 200, 141);
+Gelb:           rgb(235, 226, 127);
+Rot:            rgb(210, 105, 91);
+Schwarz:        rgb(0, 0, 0);
+White:          rgb(226,226,226);
+Grey:           rgb(128,128,128);
+Black:          rgb(15,15,15)
+                rgba(15,15,15,0.74);    
+border:         rgb(52, 46, 186);
+background-grün: rgba(182, 219, 173, 0.58);
+---------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------
+                              GLOBAL STYLES
+---------------------------------------------------------------------*/
+
+body {
+  font-size: 19px;
+  font-family: "skolar-latin",georgia,times,"times new roman",serif;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+}
+.main {
+  min-width: 400px;
+  padding: 1% 1% 0 1%;
+  margin: 0 auto;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:   "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight:  500;
+}
+ul,li{
+  font-family:   "skolar-latin",georgia,times,"times new roman",serif;
+  font-weight:  400;
+}
+
+
+.main-container {
+  background: rgb(182, 219, 173);/*IE8*/
+  background-color: rgba(182, 219, 173, 0);
+  padding: 30px 30px 150px 30px;
+
+}
+
+.main-container img {
+  display:block;
+  max-width: 100%;
+  padding-top: 50px;
+  margin: 0 auto;
+ 
+  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+  a:link { 
+      color: rgb(0, 0, 0);
+    }
+  a:visited {
+      color: rgb(0, 0, 0);
+    }
+  a:hover {
+      text-decoration: underline;
+    }
+  a:active {
+     color: rgb(0, 0, 0);
+    }
+/*---------------------------------------------------------------------
+                              VERTICAL STYLES
+---------------------------------------------------------------------*/
+
+
+p{ 
+  font-size:    1em;
+  line-height:  1.4211em;
+  margin-top:   1.4211em;
+  font-weight: 400;
+}
+ul{
+  font-size: 1em;
+  line-height:  1.4211em;
+  margin-top:   1.4211em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size:    3.0517em;
+  line-height:  1.3970em;
+  margin-top:   0.4657em;
+}
+h2 {
+  font-size:    1.9531em;
+  line-height:  1.4552em;
+  margin-top:   0.7276em;
+}
+
+h3 {
+  font-size: 1.5625em;
+  line-height: 1.8189em;
+  margin-top: 0.9095em; 
+}
+
+h4 {
+  font-size: 1em;
+  line-height:1.4211em;
+  margin-top:  1.4211em;
+}
+
+h5 {
+  font-size: 0.6400em;
+  line-height: 2.2204em;
+  margin-top: 2.2204em;
+}
+
+
+/*---------------------------------------------------------------------
+                           MAIN NAVIGATION STYLES
+---------------------------------------------------------------------*/
+
+
+
+.main-navigation ul {
+  
+  padding: 0;
+}
+.main-navigation li {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  list-style: none;
+  text-align: center;
+  margin: 10px 10px;
+  font-weight: 500;
+}
+.main-navigation li:nth-child(5){
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+.main-navigation a {
+  max-width: 288px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background: rgb(65, 65, 65);
+}
+  .main-navigation a:link{ 
+    color: rgb(170, 200, 141);
+  }
+  .main-navigation a:visited {
+    color: rgb(170, 200, 141);
+  }
+  .main-navigation a:hover {  
+    color:rgb(205, 229, 182);
+    transition: .5s color;
+    background-color:rgb(47,47,47);
+  }
+  .main-navigation a:active {
+    color:rgb(255, 184, 107);
+  }
+
+
+@media screen and (min-width: 1200px){
+  .main-navigation {
+    min-height: 77px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(205, 130, 50);
+    border-bottom: 1px solid rgb(205, 130, 50);
+  }
+  .main-navigation ul {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .main-navigation li {
+    font-weight: 400;
+    float: left;
+    min-width: 16%;
+  }
+  .main-navigation a{
+    background: none;
+  }
+  .main-navigation a:hover{
+    background:none;
+  }
+  .main-navigation li:nth-child(6){
+    text-transform: uppercase;
+    font-weight: 700;
+    
+  }
+}/*media query for 750px*/
+
+/*---------------------------------------------------------------------
+                              LOGO STYLES
+---------------------------------------------------------------------*/
+.logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 88px;
+}
+
+
+header .logo img{
+  max-width: 88px;
+  padding-top:0;
+}
+
+
+
+
+/*---------------------------------------------------------------------
+                              LANDING STYLES
+---------------------------------------------------------------------*/
+
+.landing a {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.landing h2 {
+  text-align: center;
+  color:rgb(205,130,50);
+}
+.landing h3 {
+  color:rgb(205,130,50);
+  text-align: right;
+  position: relative;
+
+}
+  
+@media screen and (min-width: 1200px){
+  body{
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+                      LEITARTIKELN STYLES
+---------------------------------------------------------------*/
+
+.kategorie-fachkraefte h3, .kategorie-weiterbildung h3{
+  
+  color: rgb(205, 130, 50);
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  letter-spacing: 5px;
+}
+
+.kategorie-fachkraefte :hover,.kategorie-weiterbildung :hover {
+  color:rgb(205, 130, 50);
+  
+}
+
+.artikeln {
+  padding: 1px 1px;
+}
+.artikeln h4 {
+  text-align: center;
+}
+.artikeln img {
+  max-width: 150px;
+  float: right; 
+}
+
+.kat-fachkraefte-container, .kat-weiterbildung-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+
+.artikeln{
+  border-bottom: 1px solid rgb(210,105,91);
+}
+
+@media screen and (min-width: 1200px){
+  
+  .artikeln img {
+    float: right;
+    max-width: 200px;
+  }
+  .kat-fachkraefte-container, .kat-weiterbildung-container{
+    border: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+
+
+/*----------------------------------------------------------------
+                      FOOTER CONTAINER
+-----------------------------------------------------------------*/
+.footer-container { 
+  background-color: rgb(65, 65, 65);
+  padding: 40px 0 40px 0;
+}
+
+
+/*---------------------------------------------------------------------
+                          FOOTER NAVIGATION
+---------------------------------------------------------------------*/
+.footer-navigation {
+  
+  min-height: 140px; 
+  width: 200px;
+  margin: 0 auto;
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.footer-navigation li {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+.footer-navigation a {
+  color:rgb(175, 175, 175); 
+  display:block;
+  margin: 0 auto;
+  
+}
+
+@media screen and (min-width:1200px){
+  .footer-navigation {
+    min-width: 1200px;
+    min-height: 10px;
+    margin:0 auto;
+  }
+  .footer-navigation ul{
+    display: flex;
+    
+  }
+  
+  .footer-navigation a{
+    min-width: 300px;
+  }
+  
+}
+
+
+
+/*----------------------------------------------------------------
+                    FOOTER LOGO
+-----------------------------------------------------------------*/
+
+.footer-cooperate {
+  padding: 20px 0 0px 0;
+}
+
+.footer-logo {
+  max-width: 400px;
+  padding-bottom: 8px;
+  margin:0 auto;
+}
+.footer-logo img{
+  margin-top:50px;
+  margin-bottom: 20px;
+}
+
+.footer-cooperate p {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  color: rgb(205, 130, 50);
+  text-align: center;
+  margin: 0;
+  font-size: 0.8em;
+  font-weight: 400;
+
+}
+
+/*----------------------------------------------------------------
+                   Zeichenkonvertierung 
+-----------------------------------------------------------------*/
+.zh-convert {
+  text-align: right;
+  padding-top: 30px;
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 900;
+  color: rgb(210, 105, 91);
+}
+.zh-convert:hover {
+  cursor: pointer;
+  text-decoration:underline;
+}
+
+
+/* SEITEN STYLES: */
+
+
+
+
+/*----------------------------------------------------------------
+                   SEITE: DEUTSCHE SOZIALVERSICHERUNG
+-----------------------------------------------------------------*/
+
+.inhalt-sozialversicherung p,.inhalt-sozialversicherung ul,.inhalt-sozialversicherung li{ 
+  font-family:  "skolar-latin",georgia,times,"times new roman",serif;
+  font-weight: 400;
+  list-style-type:lower-roman;
+}
+.inhalt-sozialversicherung ul {
+  padding-left : 60px;
+  padding-right: 20px;
+}
+.inhalt-sozialversicherung li {
+  padding-left: 30px;
+}
+
+/*----------------------------------------------------------------
+                   SEITE: kurze Einführung
+-----------------------------------------------------------------*/
+
+.inhalt-kurzeEinfuehrung img{
+  display:block;
+}
+
+
+
+
+
+/*----------------------------------------------------------------
+                   SEITE: JederLerntDeutsch
+-----------------------------------------------------------------*/
+
+.inhalt-jederLerntDeutsch img {
+  display:block;
+  padding: 0 auto;
+}
+.inhalt-jederLerntDeutsch table{
+  font-family:  "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  border-spacing: 1rem;
+  border-collapse: collapse;
+  border: solid 1px rgb(15,15,15);
+  width: 100%;
+}
+.inhalt-jederLerntDeutsch th,td{
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid rgb(15,15,15);
+}
+.inhalt-jederLerntDeutsch th {
+  font-weight: 600;
+}
+
+
+/*----------------------------------------------------------------
+                   SEITE: KONTAKT DE
+-----------------------------------------------------------------*/
+.inhalt-deKontakt h1{
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 300;
+  color: rgb(205, 130, 50);
+}
+.fischstein{
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 300;
+}
+.inhalt-deKontakt p {
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}
+
+
+/*----------------------------------------------------------------
+                   SEITE: IMPRESSUM
+-----------------------------------------------------------------*/
+.inhalt-impressum h2{
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: rgb(205, 130, 50);
+}
+.inhalt-impressum h3{
+  font-size: 1.2625em;
+  line-height: 0.8189em;
+  margin-top: 0.3095em; 
+}
+/*----------------------------------------------------------------
+                   SEITE: KONTAKT HAN
+-----------------------------------------------------------------*/
+.inhalt-hanKontakt img{
+  display:block;
+  margin: auto;
+}
+.inhalt-hanKontakt h1{
+  color: rgb(205, 130, 50);
+  text-align: 
+}
+.inhalt-hanKontakt h2{
+  font-size: 1.2625em;
+}
+/*----------------------------------------------------------------
+                   IMG: WechatCode
+-----------------------------------------------------------------*/
+.wechat {
+  display: block;
+  max-width: 78px;
+  margin: 0;
+  padding: 0;
+}
+.wechat img{
+  padding: 8px 88px;
+}
+/*----------------------------------------------------------------
+                   SEITE: Credits
+-----------------------------------------------------------------*/
+.inhalt-credits p{
+  padding:0;
+  margin: 0;
+}
+
+.zeichenKonvertierung_js a{
+  font-size: 15px;
+  display:block;
+  padding-top: 5px;
+}
+
+
+/*----------------------------------------------------------------
+                   SEITEN: ARTIKELN
+-----------------------------------------------------------------*/
+.inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits,
+.inhalt-arbeitsvisum,.inhalt-niederl{
+  max-width:800px;
+  margin: 0 auto;
+  padding:0;
+}
+
+@media screen and (min-width: 1200px){
+  .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum,.inhalt-ne{
+  min-width:800px;
+  margin: 0 auto;
+  padding:0;
+} 
+}
+/*----------------------------------------------------------------
+                   SEITE: arbeitsvisum
+-----------------------------------------------------------------*/
+
+.inhalt-arbeitsvisum a {
+  color: rgb(210, 105, 91);
+}
+  .inhalt-arbeitsvisum a:hover {
+    text-decoration: none;
+    color: rgb(227, 45, 23);
+  }
+
+
+/*----------------------------------------------------------------
+                   SEITEN: NE
+-----------------------------------------------------------------*/
+
+.inhalt-niederl ul li{
+    font-family: "skolar-latin", georgia,times,"times new roman",serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+.inhalt-niederl .unterUl {
+  margin-top: 0;
+}
+.inhalt-niederl a{
+  color: rgb(210, 105, 91);
+}
+.inhalt-niederl a:hover{
+  text-decoration: none;
+  color: rgb(227, 45, 23);
+}
+
+
+
+/*----------------------------------------------------------------
+                   SEITEN: BildungssystemDual
+-----------------------------------------------------------------*/
+.inhalt-BildungssystemDual a {
+  color: rgb(210, 105, 91);
+}
+.inhalt-BildungssystemDual a:hover{
+  text-decoration: none;
+  color: rgb(227, 45, 23);
+}
+
+/*----------------------------------------------------------------
+                   SEITEN: Deutsches Bildungssystem
+-----------------------------------------------------------------*/
+.inhalt-Bildungssystem a {
+  color: rgb(210, 105, 91);
+}
+.inhalt-Bildungssystem a:hover{
+  text-decoration: none;
+  color: rgb(227, 45, 23);
+}
+.derWegZumGymnasium img{
+  display: block;
+  margin: 0 auto;
+}
+.derWegZumStudium{
+  display: block;
+  margin:0 auto;
+}
+/*----------------------------------------------------------------
+                   SEITEN: Deutsches Bildungssystem
+-----------------------------------------------------------------*/
+.inhalt-pflegekraefte a{
+  color: rgb(210, 105, 91);
+}
+
+  .inhalt-pflegekraefte a:hover{
+    text-decoration: none;
+  color: rgb(227, 45, 23);
+  }
+
+
+
