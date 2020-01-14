@@ -5,7 +5,7 @@
 Karamel:        rgb(205, 130, 50);
 Gelbweiß:       rgb(237, 237, 191);
 Grün-dunkel:    rgb(103, 111, 88);
-Grün:           rgb(170, 200, 141);68D36E(104,211,110)
+Grün:           rgb(170, 200, 141);
 Gelb:           rgb(235, 226, 127);
 Rot:            rgb(210, 105, 91);
 Schwarz:        rgb(0, 0, 0);
@@ -157,10 +157,10 @@ h5 {
   background: rgb(65, 65, 65);
 }
   .main-navigation a:link{ 
-    color: rgb(104, 211, 110);
+    color: rgb(170, 200, 141);
   }
   .main-navigation a:visited {
-    color: rgb(104, 211, 110);
+    color: rgb(170, 200, 141);
   }
   .main-navigation a:hover {  
     color:rgb(205, 229, 182);
