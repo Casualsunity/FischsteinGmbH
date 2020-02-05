@@ -84,13 +84,14 @@ a{
 
 p{ 
   font-size:    1em;
-  line-height:  1.4211em;
+  line-height:  1.221em;
   margin-top:   1em;
   font-weight: 400;
+  text-align: left;
 }
 ul{
   font-size: 1em;
-  line-height:  1.4211em;
+  line-height:  1em;
   margin-top:   1.4211em;
   font-weight: 400;
 }
@@ -484,7 +485,7 @@ header .logo img{
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-align: justify;
+  text-align: left;
 }
 
 
