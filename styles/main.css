@@ -148,10 +148,10 @@ h5 {
     font-weight: 500;
   }
 .main-navigation a {
-  max-width: 188px;
+  max-width: 108px;
   display: block;
   margin: 0 auto;
-  padding: 5px 10px;
+  padding: 2px 15px;
   border-radius: 18px;
   text-decoration: none;
   background: rgb(65, 65, 65);
