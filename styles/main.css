@@ -239,9 +239,7 @@ header .logo img{
   position: relative;
 
 }
-.landing img{
-  max-width: 1000px;
-}
+
 @media screen and (min-width: 1200px){
   body{
     display: block;
