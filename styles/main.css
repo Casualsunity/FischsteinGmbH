@@ -435,6 +435,7 @@ header .logo img{
 
 .inhalt-kurzeEinfuehrung img{
   display:block;
+  max-width: 500px;
 }
 
 
@@ -545,7 +546,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 .wechat {
   display: block;
-  max-width: 78px;
+  max-width: 150px;
   margin: 0;
   padding: 0;
 }
