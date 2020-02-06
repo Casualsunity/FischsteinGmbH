@@ -487,6 +487,27 @@ header .logo img{
   font-style: normal;
   text-align: left;
 }
+.feisiliang {
+  margin: 0px 2px;
+}
+.feisiliang img{
+  padding: 0px 15px
+  float: left;
+  max-width: 300px;
+}
+.ansprechspartner {
+  margin: -10px 50px 0px -15px;
+}
+.ansprechspartner img{
+  padding: 10px 30px 15px 20px;
+  float: left;
+  max-width: 300px;
+}
+.ansprechspartner p{
+  padding: 100px 10px 20px 20px; 
+}
+
+
 
 
 /*----------------------------------------------------------------
