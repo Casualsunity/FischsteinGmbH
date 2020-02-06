@@ -547,11 +547,12 @@ header .logo img{
 -----------------------------------------------------------------*/
 .wechat {
   display: block;
-  max-width: 150px;
+  max-width: 550px;
   margin: 0;
   padding: 0;
 }
 .wechat img{
+  max-width: 100px;
   padding: 8px 88px;
 }
 /*----------------------------------------------------------------
