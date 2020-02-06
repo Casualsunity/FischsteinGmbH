@@ -24,8 +24,7 @@ background-grün: rgba(182, 219, 173, 0.58);
 
 body {
   font-size: 19px;
-  font-family: "skolar-latin",georgia,times,"times new roman",serif;
-  font-weight: 500;
+font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;  font-weight: 500;
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
 }
@@ -151,7 +150,7 @@ h5 {
   max-width: 200px;
   display: block;
   margin: 0 auto;
-  padding: 3px 6px;
+  padding: 6px 9px;
   border-radius: 9px;
   text-decoration: none;
   background: rgb(65, 65, 65);
@@ -417,7 +416,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 
 .inhalt-sozialversicherung p,.inhalt-sozialversicherung ul,.inhalt-sozialversicherung li{ 
-  font-family:  "skolar-latin",georgia,times,"times new roman",serif;
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   font-weight: 400;
   list-style-type:lower-roman;
 }
@@ -433,7 +432,9 @@ header .logo img{
                    SEITE: kurze Einführung
 -----------------------------------------------------------------*/
 
+
 .inhalt-kurzeEinfuehrung img{
+  
   display:block;
   max-width: 500px;
 }
