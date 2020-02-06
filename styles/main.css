@@ -95,7 +95,7 @@ ul{
 }
 
 h1 {
-  font-size:    3.0517em;
+  font-size:    2.517em;
   line-height:  1.3970em;
   margin-top:   0.4657em;
 }
@@ -253,7 +253,7 @@ header .logo img{
                       LEITARTIKELN STYLES
 ---------------------------------------------------------------*/
 
-.kategorie-fachkraefte h3, .kategorie-weiterbildung h3{
+.kategorie-fachkraefte h3, .kategorie-weiterbildung h3, .kategorie-hanKontakt h3{
   
   color: rgb(205, 130, 50);
   text-decoration: none;
