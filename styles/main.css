@@ -24,7 +24,7 @@ background-grün: rgba(182, 219, 173, 0.58);
 
 body {
   font-size: 19px;
-font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;  font-weight: 500;
+  font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;  font-weight: 500;
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
 }
