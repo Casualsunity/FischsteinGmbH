@@ -23,6 +23,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-75714509-1');
       </script>   
+    <script src="../skripte/jquery-3.4.1.min.js" type="text/javascript"></script>
   </head>
   
   <body>
@@ -112,5 +113,23 @@
       </div>
     </footer>
     
+    
+      
+    <div id="cookiedingsbums">
+      <div>
+          <span>Wir nutzen Cookies, um Ihnen den bestmöglichen Service zu gewährleisten.Wenn Sie auf der Seite weitersurfen, stimmen Sie der </span> <a href="de/datenschutz.html">Datenschutzerklärung</a> zu.
+      </div>
+      <span id="cookiedingsbumsCloser" onclick="document.cookie = 'hidecookiedingsbums=1;path=/';jQuery('#cookiedingsbums').slideUp()">&#10006;</span>
+    </div>
+
+    <script>
+      if(document.cookie.indexOf('hidecookiedingsbums=1') != -1){
+          jQuery('#cookiedingsbums').hide();
+      }
+      else{
+         jQuery('#cookiedingsbums').prependTo('body');
+         jQuery('#cookiedingsbumsCloser').show();
+      }
+    </script>
 </body>
 </html>

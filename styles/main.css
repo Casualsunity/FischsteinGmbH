@@ -10,7 +10,7 @@ Gelb:           rgb(235, 226, 127);
 Rot:            rgb(210, 105, 91);
 Schwarz:        rgb(0, 0, 0);
 White:          rgb(226,226,226);
-Grey:           rgb(128,128,128);
+Grey:           rgb(128,128,128);#808080
 Black:          rgb(15,15,15)
                 rgba(15,15,15,0.74);    
 border:         rgb(52, 46, 186);
@@ -186,7 +186,7 @@ h5 {
   .main-navigation li {
     font-weight: 400;
     float: left;
-    min-width: 16%;
+    min-width: 30%;
   }
   .main-navigation a{
     background: none;
@@ -197,7 +197,6 @@ h5 {
   .main-navigation li:nth-child(6){
     text-transform: uppercase;
     font-weight: 700;
-    
   }
 }/*media query for 750px*/
 
@@ -498,6 +497,7 @@ header .logo img{
   font-style: normal;
   text-align: left;
 }
+
 .feisiliang {
   margin: 0px 2px;
 }
@@ -672,6 +672,54 @@ header .logo img{
     text-decoration: none;
   color: rgb(227, 45, 23);
   }
+/*----------------------------------------------------------------
+                   SEITEN: Cookiedingsbums
+-----------------------------------------------------------------*/
+/*Cookie Consent Begin*/
+#cookiedingsbums a {color:#000; text-decoration:none;}
 
+#cookiedingsbums a:hover {text-decoration:underline;}
 
+#cookiedingsbums div {padding:10px; padding-right:40px;}
+
+#cookiedingsbums { 
+   outline: 1px solid #808080; 
+   text-align:right; 
+   border-top:1px solid #808080;
+   background: #808080; 
+  
+   position:fixed;
+   bottom:0px; 
+   
+   width:100%; 
+   font-size:12px; 
+   line-height:16px;
+}
+
+#cookiedingsbumsCloser {
+   color: #808080;
+   font: 14px/100% arial, sans-serif;
+   position: absolute;
+   right: 5px;
+   text-decoration: none;
+   text-shadow: 0 1px 0 #fff;
+   top: 5px;
+   cursor:pointer;
+   border-top:1px solid white; 
+   border-left:1px solid white; 
+   border-bottom:1px solid #808080; 
+   border-right:1px solid #7b92a9; 
+   padding:4px;
+   background: #808080; /* Old browsers */
+   background: -moz-linear-gradient(top, #ced6df0%, #f2f6f9 100%); 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ced6df), color-stop(100%,#f2f6f9)); 
+   background: -webkit-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -o-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -ms-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: linear-gradient(to bottom, #ced6df0%,#f2f6f9 100%); 
+   filter: progid:DXImageTransform.Microsoft.gradient(    startColorstr='#ced6df', endColorstr='#f2f6f9',GradientType=0 ); 
+ }
+
+#cookiedingsbumsCloser:hover {border-bottom:1px solid white; border-right:1px solid white; border-top:1px solid #7b92a9; border-left:1px solid #7b92a9;}
+/*Cookie Consent End*/
 
