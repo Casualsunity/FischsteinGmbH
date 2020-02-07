@@ -546,7 +546,7 @@ header .logo img{
 }
 .inhalt-hanKontakt h1{
   color: rgb(205, 130, 50);
-  text-align: 
+  text-align: left;
 }
 .inhalt-hanKontakt h2{
   font-size: 1.2625em;
@@ -557,12 +557,13 @@ header .logo img{
 .wechat {
   display: block;
   max-width: 550px;
+  
   margin: 0;
   padding: 0;
 }
 .wechat img{
   max-width: 188px;
-  padding: 88px 88px;
+  padding: 8px 88px 0 0px;
 }
 /*----------------------------------------------------------------
                    SEITE: Credits
