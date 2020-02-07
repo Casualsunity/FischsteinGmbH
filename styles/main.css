@@ -262,7 +262,7 @@ header .logo img{
   letter-spacing: 5px;
 }
 
-.kategorie-fachkraefte :hover,.kategorie-weiterbildung :hover {
+.kategorie-fachkraefte :hover,.kategorie-weiterbildung :hover, .kat-kontakt-container:hover {
   color:rgb(205, 130, 50);
   
 }
@@ -278,7 +278,7 @@ header .logo img{
   float: right; 
 }
 
-.kat-fachkraefte-container, .kat-weiterbildung-container {
+.kat-fachkraefte-container, .kat-weiterbildung-container, .kat-kontakt-container  {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
@@ -294,7 +294,7 @@ header .logo img{
     float: right;
     max-width: 200px;
   }
-  .kat-fachkraefte-container, .kat-weiterbildung-container{
+  .kat-fachkraefte-container, .kat-weiterbildung-container, .kat-kontakt-container {
     border: 0;
     display: grid;
     grid-template-rows: auto;
