@@ -1,120 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="
-            http://www.sitemaps.org/schemas/sitemap/0.9
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <url>
-       <loc>https://fischstein.com/</loc>
-       <lastmod>2019-02-24T16:11:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/images/logos/site.webmanifest</loc>
-       <lastmod>2019-01-02T21:40:09+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/index.html</loc>
-       <lastmod>2019-02-24T16:11:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kontakte/hanKontakt.html</loc>
-       <lastmod>2019-02-13T18:31:26+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/de/index.html</loc>
-       <lastmod>2019-02-24T12:00:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/niederlassungserlaubnis.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/arbeitsvisum.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/pflegekraefte.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/kurzeEinfuehrung.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/deuscheSozialversicherung.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/aerzte.html</loc>
-       <lastmod>2019-01-20T16:54:09+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/ingenieurIt.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kfk/arbeitsvertrag.html</loc>
-       <lastmod>2019-01-20T16:54:09+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kwb/deutschesBildungssystem.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kwb/weiterbildungInDeutschland.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/kwb/jederLerntDeutsch.html</loc>
-       <lastmod>2019-01-15T12:01:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/sonstiges/impressum.html</loc>
-       <lastmod>2019-02-24T16:38:31+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://fischstein.com/sonstiges/credits.html</loc>
-       <lastmod>2019-01-21T16:16:13+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
+
+<url>
+  <loc>https://fischstein.com/</loc>
+  <lastmod>2020-02-07T11:32:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/index.html</loc>
+  <lastmod>2020-02-07T11:32:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kontakte/hanKontakt.html</loc>
+  <lastmod>2020-02-07T11:32:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/de/index.html</loc>
+  <lastmod>2020-02-07T12:00:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kwb/deutschesBildungssystem.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kwb/weiterbildungInDeutschland.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/downloads/dualeAusbildungsberufe.pdf</loc>
+  <lastmod>2020-02-06T22:08:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kwb/jederLerntDeutsch.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/niederlassungserlaubnis.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/arbeitsvisum.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/pflegekraefte.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/kurzeEinfuehrung.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/deuscheSozialversicherung.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/aerzte.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/ingenieurIt.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/kfk/arbeitsvertrag.html</loc>
+  <lastmod>2020-02-06T22:26:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/sonstiges/impressum.html</loc>
+  <lastmod>2020-02-07T12:00:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/de/datenschutz.html</loc>
+  <lastmod>2020-02-07T12:06:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fischstein.com/sonstiges/credits.html</loc>
+  <lastmod>2020-02-07T12:00:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
