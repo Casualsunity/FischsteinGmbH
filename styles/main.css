@@ -72,6 +72,7 @@ a{
     }
   a:hover {
       text-decoration: underline;
+    color: rgb(205, 130, 50);
     }
   a:active {
      color: rgb(0, 0, 0);
@@ -228,8 +229,15 @@ header .logo img{
   width: 100%;
 }
 
+.landing h1{
+    text-align: center;
+    font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+    color:rgb(205,130,50);
 
-.landing h2 {
+    font-weight: 300;
+    font-size: 2.7em;
+}
+.landing h2{
   text-align: center;
   color:rgb(205,130,50);
 }
@@ -475,6 +483,7 @@ header .logo img{
 -----------------------------------------------------------------*/
 .inhalt-deKontakt h1{
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+  text-align: center;
   font-weight: 300;
   font-size: 2.7em;
   color: rgb(205, 130, 50);
@@ -552,7 +561,7 @@ header .logo img{
   padding: 0;
 }
 .wechat img{
-  max-width: 100px;
+  max-width: 188px;
   padding: 8px 88px;
 }
 /*----------------------------------------------------------------
