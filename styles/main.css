@@ -496,7 +496,9 @@ header .logo img{
   font-weight: 400;
   font-style: normal;
   text-align: left;
+  text-align: justify;
 }
+.inhalt-deKontakt 
 
 .feisiliang {
   margin: 0px 2px;
@@ -515,7 +517,7 @@ header .logo img{
   max-width: 300px;
 }
 .ansprechspartner p{
-  padding: 20px 20px 200px 40px; 
+  padding: 20px 20px 320px 40px; 
 }
 
 
