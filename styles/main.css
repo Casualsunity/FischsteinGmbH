@@ -506,7 +506,7 @@ header .logo img{
 .feisiliang img{
   padding: 0px 15px
   float: left;
-  max-width: 300px;
+  max-width: 150px;
 }
 .ansprechspartner {
   margin: -10px 50px 0px -15px;
@@ -519,7 +519,9 @@ header .logo img{
 .ansprechspartner p{
   padding: 20px 20px 320px 40px; 
 }
-
+.inhalt-deKontakt a {
+  color: rgb(205, 130, 50);
+}
 
 
 
