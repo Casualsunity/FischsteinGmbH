@@ -504,27 +504,27 @@ header .logo img{
   text-align: left;
   text-align: justify;
 }
-.inhalt-deKontakt 
-
-.feisiliang {
-  margin: 0px 2px;
-}
-.feisiliang img{
-  padding: 0px 15px
-  float: left;
-  max-width: 150px;
-}
 .ansprechspartner {
   margin: -10px 50px 0px -15px;
 }
 .ansprechspartner img{
   padding: 10px 30px 15px 20px;
   float: left;
-  max-width: 200px;
+  max-width: 188px;
 }
 .ansprechspartner p{
   padding: 20px 20px 20px 20px; 
 }
+.feisiliang {
+  margin: -10px 50px 0px -15px;
+}
+.feisiliang a{
+  padding: 0 15px 50px 10px; 
+  float: left;
+  max-width: 168px;
+}
+
+
 .inhalt-deKontakt a {
   color: rgb(205, 130, 50);
 }
