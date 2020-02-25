@@ -514,10 +514,10 @@ header .logo img{
 .ansprechspartner img{
   padding: 10px 30px 15px 20px;
   float: left;
-  max-width: 300px;
+  max-width: 200px;
 }
 .ansprechspartner p{
-  padding: 20px 20px 20px 40px; 
+  padding: 20px 20px 20px 20px; 
 }
 .inhalt-deKontakt a {
   color: rgb(205, 130, 50);
