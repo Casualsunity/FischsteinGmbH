@@ -81,7 +81,13 @@ a{
                               VERTICAL STYLES
 ---------------------------------------------------------------------*/
 
-
+ol,li{
+    font-family:   "futura-pt", helvetica, verdana,Tahoma, sans-serif;
+    line-height:  1.4211em;
+    margin-top:   1.4211em;
+    font-weight: 400;
+    text-align: justify;
+}
 p{ 
   font-size:    1em;
   line-height:  1.4211em;
@@ -102,18 +108,18 @@ h1 {
 }
 h2 {
   font-size:    1.9531em;
-  line-height:  1.4552em;
+  line-height:  1.2em;
   margin-top:   0.7276em;
 }
 
 h3 {
   font-size: 1.5625em;
-  line-height: 1.8189em;
+  line-height: 1.2em;
   margin-top: 0.9095em; 
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height:1.4211em;
   margin-top:  1.4211em;
 }
@@ -589,14 +595,14 @@ header .logo img{
 -----------------------------------------------------------------*/
 .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits,
 .inhalt-arbeitsvisum,.inhalt-niederl{
-  max-width:800px;
+  max-width:888px;
   margin: 0 auto;
   padding:0;
 }
 
 @media screen and (min-width: 1200px){
   .inhalt-aerzte, .inhalt-vertrag, .inhalt-sozialversicherung,.inhalt-IngenieurItler,.inhalt-kurzeEinfuehrung,.inhalt-pflegekraefte, .inhalt-deKontakt, .inhalt-hanKontakt,.inhalt-BildungssystemDual,.inhalt-jederLerntDeutsch, .inhalt-Bildungssystem, .inhalt-impressum, .inhalt-credits ,.inhalt-arbeitsvisum,.inhalt-ne{
-  min-width:800px;
+  min-width:888px;
   margin: 0 auto;
   padding:0;
 } 
