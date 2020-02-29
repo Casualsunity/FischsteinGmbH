@@ -2,7 +2,7 @@
                               FARBEN WEGWEISER
 
 
-Karamel:        rgb(205, 130, 50);
+ErdeBraun:      rgb(205, 130, 50); (200, 129, 61)
 Gelbweiß:       rgb(237, 237, 191);
 Grün:           rgb(108, 191, 100);
 Gelb:           rgb(235, 226, 127);
@@ -71,7 +71,7 @@ a{
     }
   a:hover {
       text-decoration: underline;
-    color: rgb(205, 130, 50);
+    color: rgb(200, 129, 61);
     }
   a:active {
      color: rgb(0, 0, 0);
@@ -168,7 +168,7 @@ h5 {
     color: rgb(108, 191, 100);
   }
   .main-navigation a:hover {  
-    color:rgb(205, 229, 182);
+    color:rgb(210, 105, 91);
     transition: .5s color;
     background-color:rgb(47,47,47);
   }
@@ -181,8 +181,8 @@ h5 {
   .main-navigation {
     min-height: 77px;
     margin-top: 30px;
-    border-top: 1px solid rgb(205, 130, 50);
-    border-bottom: 1px solid rgb(205, 130, 50);
+    border-top: 1px solid rgb(200, 129, 61);
+    border-bottom: 1px solid rgb(200, 129, 61);
   }
   .main-navigation ul {
     max-width: 950px;
@@ -267,7 +267,7 @@ header .logo img{
 
 .kategorie-fachkraefte h3, .kategorie-weiterbildung h3, .kategorie-hanKontakt h3{
   
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
   text-decoration: none;
   position: relative;
   top: 20px;
@@ -275,7 +275,7 @@ header .logo img{
 }
 
 .kategorie-fachkraefte :hover,.kategorie-weiterbildung :hover, .kat-kontakt-container:hover {
-  color:rgb(205, 130, 50);
+  color:rgb(200, 129, 61);
   
 }
 
@@ -394,7 +394,7 @@ header .logo img{
 
 .footer-cooperate p {
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
   text-align: center;
   margin: 0;
   font-size: 0.8em;
@@ -490,7 +490,7 @@ header .logo img{
   text-align: left;
   font-weight: 300;
   font-size: 2.7em;
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
 }
 .fischstein{
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
@@ -525,7 +525,7 @@ header .logo img{
 
 
 .inhalt-deKontakt a {
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
 }
 
 
@@ -537,7 +537,7 @@ header .logo img{
   font-family: "futura-pt", helvetica, verdana,Tahoma, sans-serif;
   font-weight: 200;
   font-size: 1.2625em;
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
 }
 
 .inhalt-impressum p {
@@ -554,7 +554,7 @@ header .logo img{
   margin: auto;
 }
 .inhalt-hanKontakt h1{
-  color: rgb(205, 130, 50);
+  color: rgb(200, 129, 61);
   text-align: left;
 }
 .inhalt-hanKontakt h2{
