@@ -247,7 +247,8 @@ header .logo img{
 }
 .landing h3 {
   color:rgb(205,130,50);
-  text-align: right;
+  font-weight: 400;
+  text-align: left;
   position: relative;
 
 }
